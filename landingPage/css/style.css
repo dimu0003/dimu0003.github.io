@@ -1,0 +1,388 @@
+/* META DATA + FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800&display=swap');
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    }
+
+body {
+    font-family: Montserrat;
+    background-color: #f7f7ff;
+   
+}
+
+main {
+    background-image: url(images/logo/logo.png);
+    height: 100%;
+    width: 100%;
+}
+
+
+p {
+    margin-bottom: 10px;
+}
+
+/* MOBILE VIEW PORT */
+
+/* HEADER CODE!*/
+
+header {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+header img {
+    max-height: 81.05px;
+}
+
+
+/* BODY CODE */
+
+
+
+main {
+    margin: auto;
+    max-width: 80vw;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+main header{
+    max-height: 100px;
+}
+
+
+h1 {
+    font-family: montserrat;
+    font-size: 60px;
+    color: #333131;
+    font-weight: 900;
+}
+
+h2 {
+
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* .bg-img {
+
+        max-width: 290px;
+
+} */
+
+.main-form {
+
+    position: relative;
+    background-color: white;
+    border-radius: 16px;
+
+    box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.3);
+
+    color: #333131;
+    max-width: 300px;
+    max-height: 495px;
+
+
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.value div:nth-child(4) {
+    margin-bottom: -30px;
+}
+
+ .main-form input[type="checkbox"] {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+} 
+
+.checkmark {
+    position: absolute;
+    top: 325px;
+    left: 25px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: black 1.5px solid;
+    border-radius: 3px;
+
+}
+
+.checks {
+    display: flex;
+    margin-top: 4px;
+}
+
+.apply {
+
+    font-family: montserrat;
+    font-size: 40px;
+    color: #333131;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.enter {
+
+    margin-bottom: 10px;
+}
+
+.value {
+
+    font-family: Montserrat;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    background-color: #f7f7ff;
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    color: #333131;
+    background-color: #57eeab;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+
+    width: 100%;
+    padding: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     border-radius: 16px;
+
+}
+
+
+
+.app-link {
+
+    font-weight: 500;
+    text-decoration: none;
+    color: #ff8480;
+    font-size: 14px;
+}
+/* FOOTER CODE */
+
+h3 {
+
+    margin-bottom: 10px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    
+    background-color: #fffd8c;
+}
+
+    .hr, .ct {
+        margin: auto;
+        padding: 8px;
+        margin-bottom: 10px;
+
+        border: none;
+        border-radius: 8px;
+
+        font-family: Montserrat;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.4);
+
+    }
+
+    .hr {
+        width: 21%;
+    }
+
+    .ct {
+        width: 77%;
+    }
+
+    .footbody {
+
+        margin: 25px;
+
+    }
+
+.buttonFooter {
+
+    width: 100%;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 16px;
+
+    background-color: #ff8480;
+    color: #f7f7ff;
+
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+
+/* TABLET VIEW */
+
+@media (min-width: 768px) {
+
+.bg-img {
+    max-width: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.main-form {
+    max-width: 605px;
+    max-height: 596px;
+}
+
+footer {
+
+    max-height: 220px;
+    padding: 0;
+
+}
+
+.hr {
+    width: 122px;
+    height: 40px;
+}
+
+.ct {
+    width: 226px;
+    height: 40px;
+    margin: 13px;
+    margin-bottom: 0;
+}
+
+/* need to figure out how to fix height */
+
+.buttonFooter {
+
+    width: 200px;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 16px;
+
+    background-color: #ff8480;
+    color: #f7f7ff;
+
+}
+
+.social {
+        display: flex;
+        justify-content: center;
+        
+}
+
+.icons {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+/* DESKTOP VIEW! :O */
+
+@media (min-width: 1024px) {
+    
+    
+    .bg-img {
+
+        max-width: 600px;
+    }
+
+    section {
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1;
+
+   }
+
+   .section div:nth-child(1){
+    grid-row: 1;
+       grid-column: 1 / span 2;
+   }
+
+   .section div:nth-child(2) {
+       grid-row: 1;
+       grid-column: 2 / span 4;
+       z-index: -1;
+   }
+   .section div:nth-child(3) {
+    grid-row: 1;
+       grid-column: 5/ span 6;
+   }
+
+.footbody {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+.left {
+    
+    width: 550px;
+    margin-left: 125px;
+}
+
+.social {
+
+    
+    width: 500px;
+}
+
+.hr {
+    width: 15%;
+}
+
+.ct {
+    width: 40%;
+}
+
+  }
+
+  /* NEEDED FIXES 
+  
+
+  FOOTER
+
+  - fix calculate button size and centering
+  - fix sizing + padding under social buttons
+
+  
+  */ }
