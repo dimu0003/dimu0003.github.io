@@ -1,5 +1,396 @@
-.wrapper{
-	width:80%;
-	margin:2em;
+
+
+
+/* MAIN CSS */
+body {
+
+	background-color: #F2F2F2;
+	color: #3C3B3A;
+	width: 100%;
+	margin: 0 auto;
+
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+ 
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+
+footer {
+	background-color: #3c3c3a;
+}
+
+.discARC, .discover {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.bgc1 {
+	background-color: blue;
+}
+
+/* THIS IS MOBILE VIEW  */
+
+
+/* HEADER CSS */
+
+header {
+	
+	
+	background-color: #3C3B3A;
+	color: #F2F2F2;
+
+	
+	display: grid;
+	grid-template-columns: 1;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+header img {
+	width: 88px;
+	height: auto;
+}
+
+nav {
+
+	padding-bottom: 10px;
+}
+
+nav ul {
+	
+	font-size: 16px;
+
+	padding: 15px;
+	text-align: center;
+}
+
+nav ul:hover {
+	color:  #26A682;
+}
+
+nav ul:active {
+
+	font-weight: bold;
+
+}
+
+/* BODY TEXT */
+
+main {
+
+	margin: 0 auto;
+}
+
+
+
+/* .discARC {
+
+
+} */
+
+.discARC h1 {
+
+	font-size: 40px;
+	font-weight: 700;
+
+}
+
+.icon1 {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	
+	
+}
+
+.icon1 img {
+	display: block;
+	width: 40px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.icon1 a {
+	text-align: center;
+	padding-bottom: 30px;
+	
+	color: #26A682;
+	font-weight: 450;
+}
+
+.getstartbtn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.getstartbtn button {
+
+	font-family: raleway;
+	font-size: 32px;
+	font-weight: 700;
+	color: #F2F2F2;
+	background-color: #26a682;
+	width: 300px;
+	padding: 10px;
+
+	border: none;
+	border-radius: 30px;
+	box-shadow: 3px 10px 10px  rgba(90, 90, 90, 0.5);
+
+	margin: auto;
+}
+
+.book {
+	display: block;
+	height: 187px;
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+
+.arrowicon {
+	display: none;
+}
+
+.school {
+
+	display: block;
+	margin-top: 8rem;
+
+
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2, h5, h6 {
+	font-style: italic;
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+h6 {
+	font-style: normal;
+}
+
+
+h3 {
+	font-weight: 500;
+	font-size: 40px;
+	color: #26A682;
+	margin-top: 1rem;
+	margin-bottom: 20px;
+}
+
+h4 {
+
+	color: #F2F2F2;
+	font-size: 24px;
+}
+
+/* CONTENT BODY */
+
+.discover {
+
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-top: 1rem;
+}
+
+p {
+	line-height: 2.5rem;
+}
+
+/* DISCOVER */
+
+.discover p {
+	margin-bottom: 1rem;
+}
+
+.discover h3 {
+	margin-bottom: 1rem;
+	text-align: left;
+}
+
+/* BUTTON PROPERTIES */
+/* NEED TO FIGURE OUT BUTTON POSITION */
+
+.learnmore {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-left: 140px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.discover button {
+	font-family: raleway;
+	font-size: 24px;
+	font-weight: 700;
+	color: #F2F2F2;
+	background-color: #26a682;
+	width: 230px;
+	padding: 5px;
+
+	border: none;
+	border-radius: 30px;
+	box-shadow: 3px 10px 10px  rgba(90, 90, 90, 0.5);
+
+	margin: auto;
+
+}
+
+
+/* BIO SECTION */
+
+.bio {
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #3c3c3c;
+	color: #F2F2F2;
+	
+}
+
+
+.bio img {
+
+	display: block;
+	margin: 1.5rem auto;
+
+	width: 125px;
+	border: solid white 5px;
+	border-radius: 100px;
+	
+}
+
+
+.bio p {
+	 margin: 2rem auto;
+	 width: 80%;
+}
+
+.bio h4 {
+	font-size: 24px;
+	font-weight: 600;
+
+	width: 40%;
+	margin: auto;
+	line-height: 2.5rem;
+	text-align: center;
+
+}
+
+.cheers {
+	display: none;
+}
+
+footer {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2rem;
+
+}
+
+.social {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+
+	margin: 1rem auto;
+}
+
+.arrowfooter {
+
+	display: grid;
+	grid-template-rows: 1fr, 1fr;
+	position: fixed;
+	right: 25px;
+	bottom: 60px;
+	z-index: 1;
+	
+	font-size: 9px;
+	
+	text-decoration: none;
+	color: white;
+}
+
+.arrowfooter img {
+	width: 22px;
+	margin-bottom: 5px;
+}
+
+a:visited, a:link, a:active {
+	text-decoration: none;
+	color: #F2F2F2;
+}
+
+
+/* ABOUT PAGE */
+
+.about,.srv2 {
+	background-color: red;
+}
+
+.about {
+	width: 100%;
+}
+
+.img-about img {
+	position: relative;
+}
+
+.banners h4{
+	position: absolute;
+
+
+	font-size: 60px;
+	color: black;
+}
+
+
+.linebreak {
+
+	display: grid;
+	grid-template-rows: 1fr, 1fr;
+	background-color: #3C3B3A;
+	color: #F2F2F2;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.linebreak h5 {
+	font-style: normal;
+	font-size: 24px;
+}
+
+/* SUBSCRIBER BUTTON */
+
+/* controls size of button */
+.linebreak .getstartbtn {
+	width: 40%;
+	justify-self: center;
+}
+/* controls font size in button */
+.linebreak .getstartbtn button{
+	font-size: 20px;
+}
+
+
+
+
+/* CONTACT PAGE */
