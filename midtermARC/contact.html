@@ -3,7 +3,7 @@
 <html>
 
 	<head>
-		<title>Framework</title>
+		<title>ARC - Contact</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/normalize.css">
@@ -11,47 +11,77 @@
 	</head>
 
 	<body>
-		<main class="main">
-			<header>
-				<img src="images/logo.svg" alt="logo" class="logo">
-				<nav>
-				<ul>Home</ul>	
-				<ul>About</ul>	
-				<ul>Contact</ul>
-				</nav>	
-			</header>
+		<header>
 
-			<section>
-				<div class="maintext">
-					<h1>We Want To Hear From You</h1>
-					<p>If you have an idea for an activity that you think you and your fellow students would love to participate in that we are not already offering, we want to know about it!</p>
+			<nav id="nav">
+				<div class="container">
+					<!-- <img src="images/logo.svg" alt="logo" class="logo"> -->
+	
+	
+					<ul class="topnav">
+						<li id="id">
+							<img src="images/logo.svg" alt="logo" class="logo">
+						</li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a class="active" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+	
+			</nav>
+		</header>
+	
+		<main class="main bgc1">
+
+			<section class="discover split">
+			
+				<div>
+					<div class="maintext">
+						<h1>We Want To Hear From You</h1>
+						<p>If you have an idea for an activity that you think you and your fellow students would love to participate in that we are not already offering, we want to know about it!</p>
+					</div>
+
+					<div class="contact-img">
+						<img src="images/contact-img.svg" alt="">
+
+					</div>
 				</div>
 
-				<div class="form">
-					<form>
-						<fieldset>
-							<input type="text" name="fullName" value="Full Name">
-							<input type="text" name="studentNumber" value="Student Number">
-							<input type="text" name="email" value="Email">
-							<input type="text" name="message" value="Message">
-							<input type="button" class="formbtn" name="button" value="Submit">
-						</fieldset>
+				<div class="main-form">
+					<form class="form">
+						<p class="contact-us">Contact Us.</p>
+						<h7>Full Name</h7>
+						<input class="value" type="text" name="fullName" value="Full Name">
+						<h7>Student Number</h7>
+						<input class="value" type="text" name="studentNumber" value="Student Number">
+						<h7>Email</h7>
+						<input class="value" type="text" name="email" value="Email">
+						<h7>Message</h7>
+						<input class="value msg" type="message" name="message" value="Message">
+
+					<div class="button-pos">
+						<input class="button" type="button" name="button" value="Submit">
+					</div>
 					</form>
 				</div>
 			</section>
 
-			<section class="info">
-				<div class="maininfo">
+		<section class="info">
+				<div class="maininfo discover">
 					<h1>Our Location.</h1>
 					<h2>Algonquin College Students' Association</h2>
 					<p>Monday to Friday - 8:30am to 6:00pm</p>
 					<p>1385 Woodroffe Avenue (E114)</p>
-					<p>Ottawa, ONtario</p>
+					<p>Ottawa, Ontario</p>
 					<p>K2G 1V8</p>
 					<p>(613) 727-4723 x7711</p>
 				</div>
-				<img src="" alt="map">
-			</section>
+				<div class="map">
+					<img src="images/map.png" alt="map">
+				</div>
+		</section>
+		
+
 
 			<footer>
 				<h4>Follow us</h4> <!-- white header text -->
@@ -66,11 +96,10 @@
 				<a href=""><img  src="images/icons/arrow.svg" alt="back to top"></a>
 				<a href="">back to top</a>
 			</div>
-
 			</footer>
+
 		</div><!-- end wrapper -->
 
-		<script src="js/modernizr.js"></script>
 
 	</body>
 

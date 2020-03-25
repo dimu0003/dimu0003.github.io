@@ -1,396 +1,933 @@
+@media screen and (min-width: 420px) {
+    /* MAIN CSS */
+
+    body {
+        background-color: #F2F2F2;
+        color: #3C3B3A;
+        width: 100%;
+        margin: 0 auto;
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    footer {
+        background-color: #3c3c3a;
+    }
+    .discARC,
+    .discover {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bgc1 {
+		padding-top: 20px;
+        background-color: white;
+    }
+    .bgc2 {
+        background-color: #f2f2f2;
+    }
+    /* THIS IS MOBILE VIEW  */
+    /* HEADER CSS */
+    header {
+        background-color: #3C3B3A;
+        color: #F2F2F2;
+        display: grid;
+        grid-template-columns: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    header img {
+        width: 88px;
+        height: auto;
+    }
+    nav {
+        padding-bottom: 10px;
+    }
+    nav ul li {
+        font-size: 16px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+        color: #26A682;
+    }
 
 
-
-/* MAIN CSS */
-body {
-
-	background-color: #F2F2F2;
-	color: #3C3B3A;
-	width: 100%;
-	margin: 0 auto;
-
-	font-family: Raleway, Arial, Helvetica, sans-serif;
- 
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-
-}
-
-footer {
-	background-color: #3c3c3a;
-}
-
-.discARC, .discover {
-	width: 80%;
-	margin: 0 auto;
-}
-
-.bgc1 {
-	background-color: blue;
-}
-
-/* THIS IS MOBILE VIEW  */
-
-
-/* HEADER CSS */
-
-header {
-	
-	
-	background-color: #3C3B3A;
-	color: #F2F2F2;
-
-	
-	display: grid;
-	grid-template-columns: 1;
-	align-items: center;
-	justify-content: center;
-	
-
-}
-
-header img {
-	width: 88px;
-	height: auto;
-}
-
-nav {
-
-	padding-bottom: 10px;
-}
-
-nav ul {
-	
-	font-size: 16px;
-
-	padding: 15px;
-	text-align: center;
-}
-
-nav ul:hover {
-	color:  #26A682;
-}
-
-nav ul:active {
-
-	font-weight: bold;
-
-}
-
-/* BODY TEXT */
-
-main {
-
-	margin: 0 auto;
-}
-
-
-
-/* .discARC {
+    .active {
+        color: white;
+        font-weight: 700;
+    }
+    /* BODY TEXT */
+    main {
+        margin: 0 auto;
+    }
+    /* .discARC {
 
 
 } */
+    .discARC h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .icon1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-.discARC h1 {
+    .icon1 img {
+        display: block;
+        width: 40px;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
-	font-size: 40px;
-	font-weight: 700;
+    .icon1 a {
+        text-align: center;
+        padding-bottom: 30px;
+        color: #26A682;
+        font-weight: 450;
+    }
 
-}
+    .getstartbtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .getstartbtn button {
+        font-family: raleway;
+        font-size: 32px;
+        font-weight: 700;
+        color: #F2F2F2;
+        background-color: #26a682;
+        width: 300px;
+        padding: 10px;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 3px 10px 10px rgba(90, 90, 90, 0.5);
+        margin: auto;
+    }
+    .book {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 300px;
+    }
+    .arrowicon {
+        display: none;
+    }
+    .school {
+        display: block;
+    }
 
-.icon1 {
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    h2,
+    h5,
+    h6 {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    h6 {
+        font-style: normal;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 24px;
+        color: #26A682;
+        margin-top: 1rem;
+        margin-bottom: 20px;
+    }
 
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+    h4 {
+        color: #F2F2F2;
+        font-size: 24px;
+    }
+    /* CONTENT BODY */
+    .discover {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1rem;
+    }
+    p {
+        line-height: 2.5rem;
+    }
+	/* DISCOVER */
 	
+    .discover p {
+        margin-bottom: 1rem;
+    }
+    .discover h3 {
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    /* BUTTON PROPERTIES */
+    /* NEED TO FIGURE OUT BUTTON POSITION */
+    .learnmore {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        padding-left: 140px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .discover button {
+        font-family: raleway;
+        font-size: 24px;
+        font-weight: 700;
+        color: #F2F2F2;
+        background-color: #26a682;
+        width: 230px;
+        padding: 5px;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 3px 10px 10px rgba(90, 90, 90, 0.5);
+        margin: auto;
+    }
+    /* BIO SECTION */
+    .bio {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #3c3c3c;
+        color: #F2F2F2;
+    }
+    .bio img {
+        display: block;
+        margin: 1.5rem auto;
+        width: 125px;
+        border: solid white 5px;
+        border-radius: 100px;
+    }
+    .bio p {
+        margin: 2rem auto;
+        width: 80%;
+    }
+    .bio h4 {
+        font-size: 24px;
+        font-weight: 600;
+        width: 40%;
+        margin: auto;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+
+
+    footer {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1rem;
+        position: relative;
+    }
+
+    footer h4 {
+        padding-top: 10px;
+    }
+    .social {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        margin: 1rem auto;
+    }
+    .arrowfooter {
+        display: grid;
+        grid-template-rows: 1fr, 1fr;
+        position: absolute;
+        right: 25px;
+        bottom: 48px;
+        z-index: 1;
+        font-size: 9px;
+        text-decoration: none;
+        color: white;
+    }
+    .arrowfooter img {
+        width: 22px;
+        margin-bottom: 5px;
+    }
+    a:visited,
+    a:link,
+    a:active {
+        text-decoration: none;
+        color: #F2F2F2;
+    }
+    /* ABOUT PAGE */
+    .about {
+        width: 100%;
+    }
+    .img-about img {
+        margin-top: 25px;
+    }
+    .banners h4 {
+        position: absolute;
+        font-size: 60px;
+        color: black;
+    }
+
+    .banners .school {
+        width: 100%;
+    }
+
+    .thx {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .thx h1 {
+        font-size: 56px;
+        padding: 2rem;
+        text-align: center;
+        line-height: 3.5rem;
+    }
+    .sponsors {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 200px;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+    .sponsors img {
+        padding-bottom: 30px;
+    }
+
+    .srvbody-img {
+        display: none;
+    }
+    .srv-text {
+        padding: 15px;
+    }
+    h6 {
+        padding-top: 20px;
+    }
+    .linebreak {
+        display: grid;
+        grid-template-rows: 1fr, 1fr;
+        background-color: #3C3B3A;
+        color: #F2F2F2;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .linebreak h5 {
+        font-style: normal;
+        font-size: 24px;
+    }
+    /* SUBSCRIBER BUTTON */
+    /* controls size of button */
+    .linebreak .getstartbtn {
+        width: 40%;
+        justify-self: center;
+    }
+    /* controls font size in button */
+    .linebreak .getstartbtn button {
+        font-size: 20px;
+    }
+    /* CONTACT PAGE */
+    .maintext p {
+        line-height: 2rem;
+        font-size: 20px;
+    }
+    .main-form {
+        background-color: #26A682;
+        border-radius: 30px;
+        box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.3);
+        color: #333131;
+        max-width: 300px;
+        max-height: 495px;
+        padding: 1rem;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .main-form h7 {
+        color: white;
+    }
+    .contact-us {
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .value {
+        font-family: Raleway;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.3);
+        background-color: #f7f7ff;
+        width: 93%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 20px;
+    }
+    .msg {
+        border-radius: 15px;
+        height: 100px;
+    }
+    .button {
+        font-family: raleway;
+        color: #f2f2f2;
+        background-color: #3C3B3A;
+        box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.3);
+        font-size: 24px;
+        font-weight: bold;
+        border: none;
+        width: 100%;
+        padding: 8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        
+    }
+    .maininfo p {
+        line-height: 1.5rem;
+    }
+    .maininfo h2 {
+        font-weight: normal;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    .map {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+/* HEY LOOK ITS THE TABLET VIEW */
+
+@media screen and (min-width: 768px) {
+ 
+/* Changes nav from vertical to horizontal */
+
+    header {
+        display: block;
+    }
+
+    #id {
+        flex: 1;
+        display: inline-flex;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .topnav {
+        display: flex;
+	}
 	
+	nav ul li {
+		align-self: center;
+	}
+
+    .discARC h1 {
+        font-size: 72px;
+        padding-bottom: 10px;
+    }
+
+/* HOME PAGE  */
+
+h2 {
+    font-size: 40px;
 }
-
-.icon1 img {
-	display: block;
-	width: 40px;
-	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.icon1 a {
-	text-align: center;
-	padding-bottom: 30px;
-	
-	color: #26A682;
-	font-weight: 450;
-}
-
-.getstartbtn {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.getstartbtn button {
-
-	font-family: raleway;
-	font-size: 32px;
-	font-weight: 700;
-	color: #F2F2F2;
-	background-color: #26a682;
-	width: 300px;
-	padding: 10px;
-
-	border: none;
-	border-radius: 30px;
-	box-shadow: 3px 10px 10px  rgba(90, 90, 90, 0.5);
-
-	margin: auto;
-}
-
-.book {
-	display: block;
-	height: 187px;
-	margin: 0 auto;
-	margin-top: 30px;
-
-}
-
-.arrowicon {
-	display: none;
-}
-
-.school {
-
-	display: block;
-	margin-top: 8rem;
-
-
-}
-
-h1 {
-	font-size: 40px;
-	font-weight: 700;
-}
-
-h2, h5, h6 {
-	font-style: italic;
-	font-weight: 600;
-	font-size: 40px;
-	margin-bottom: 10px;
-}
-
-h6 {
-	font-style: normal;
-}
-
 
 h3 {
-	font-weight: 500;
-	font-size: 40px;
-	color: #26A682;
-	margin-top: 1rem;
-	margin-bottom: 20px;
+    font-size: 32px;
 }
 
-h4 {
 
-	color: #F2F2F2;
-	font-size: 24px;
+ /* changes "book" image size */
+
+.book {
+    width: 60%;
+    padding-top: 10px;
 }
 
-/* CONTENT BODY */
 
-.discover {
 
-	padding-left: 1rem;
-	padding-right: 1rem;
-	margin-top: 1rem;
+/* shows scroll arrow  */
+
+
+.arrowicon {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    z-index: 1;
+    font-size: 16px;
+    text-decoration: none;
+    color: #3C3B3A;
+    justify-content: center;
+
+    width: 100%;
+    margin: 0 auto;
+
+    padding-top: 10px;
 }
 
-p {
-	line-height: 2.5rem;
+.arrowicon img {
+    width: 25px;
+    transform: rotate(180deg);
+    padding-top: 60px;
+    align-self: center;
+    justify-content: center;
+    margin-left: 9px;
+
 }
 
-/* DISCOVER */
+
+    /* learn more button positioning  */
+    .learnmore {
+        padding-left: 400px;
+    }
+
+    /* changes icons from quadrant to single line  */
+    .icon1 {
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 20px;
+    }
+
+    .social {
+        width: 20%;
+    }
+
+    /* keeps everything inline for the subscribe button */
+    .linebreak {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .linebreak h5 {
+        width: 60%;
+        padding-top: 10px;
+    }
+
+    /* fixing the button size and position */
+
+    .linebreak .getstartbtn {
+        width: 125px;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 200px;
+        
+    }
+    
+    .bio {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+/* ABOUT PAGE TABLET */
+
+.srvbody-img {
+    display: block;
+}
+
+.banners {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.srv2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* CONTACT PAGE TABLET */
+
+.info img {
+    width: 100%;
+}
+
+.contact-img {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.maininfo h2 {
+    margin-bottom: 20px;
+}
+
+.maintext h1 {
+    font-size: 4.5rem;
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .info img {
+        padding-top: 10px;
+        width: 800px;
+    }
+    
+}
+
+/* FORM CHANGES */
+
+.main-form {
+    background-color: #26A682;
+    color: #333131;
+    max-width: 500px;
+    max-height: 575px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.main-form h7 {
+    font-size: 20px;
+}
 
 .discover p {
-	margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.discover h3 {
-	margin-bottom: 1rem;
-	text-align: left;
+.contact-us {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
-/* BUTTON PROPERTIES */
-/* NEED TO FIGURE OUT BUTTON POSITION */
+.value {
 
-.learnmore {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	padding-left: 140px;
-	margin-top: 10px;
-	margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
 }
 
-.discover button {
-	font-family: raleway;
-	font-size: 24px;
-	font-weight: 700;
-	color: #F2F2F2;
-	background-color: #26a682;
-	width: 230px;
-	padding: 5px;
-
-	border: none;
-	border-radius: 30px;
-	box-shadow: 3px 10px 10px  rgba(90, 90, 90, 0.5);
-
-	margin: auto;
-
+.msg {
+    border-radius: 15px;
+    height: 100px;
 }
 
+.button {
 
-/* BIO SECTION */
-
-.bio {
-	display: grid;
-	grid-template-columns: 1fr;
-	background-color: #3c3c3c;
-	color: #F2F2F2;
-	
+    font-family: raleway;
+    font-size: 40px;
+    width: 35%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
 }
 
+/* adjusts home page button size between tablet and full screen  */
 
-.bio img {
-
-	display: block;
-	margin: 1.5rem auto;
-
-	width: 125px;
-	border: solid white 5px;
-	border-radius: 100px;
-	
+body > main > section.split > section > div > div > button, body > main > section.split2 > div.discover > div > button {
+    width: 300px;
 }
 
-
-.bio p {
-	 margin: 2rem auto;
-	 width: 80%;
+.button-pos {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
 }
 
-.bio h4 {
-	font-size: 24px;
-	font-weight: 600;
+/* DESKTOP SIZE! */
 
-	width: 40%;
-	margin: auto;
-	line-height: 2.5rem;
-	text-align: center;
+@media screen and (min-width: 1280px) {
 
+
+/* HOME PAGE CHANGES */
+
+
+    /* changes discARC div to side by side column  */
+    .discARC {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    /* changes size of book image  */
+
+    .book {
+        width: 50vw;
+    }
+
+    .book img {
+        margin-left: 50px;
+    }
+    
+    .arrowicon img {
+        padding-top: 30px;
+
+    }
+
+    .scroll {
+        line-height: 1.5rem;
+        padding-top: 10px;
+    }
+
+    /* Makes .School and .Discover side by side */
+
+    .split {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-self: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    /* adds padding to bio div */
+    .simon h4 {
+        padding-bottom: 10px;
+    }
+
+  .learnmore {
+        /* padding-left: 17.25rem; */
+    }
+
+    .split img {
+        width: 50vw;
+        justify-content: center;
+        align-self: center;
+        padding-left: 20px;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+    .split p {
+        margin-bottom: 0px;
+    }
+
+/* Turns the cheers image into a grid */
+
+    .split2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-self: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        align-items: center;
+    }
+/* FIGURE OUT GRID ORDER AND NTH CHILD?? */
+
+    .split2 div:nth-child(1) {
+        grid-column: 1;
+
+    }
+
+    .split2 img {
+        padding-left: 19px;
+    }
+
+    .split2 div:nth-child(2) {
+        
+       grid-column: 0;
+    }
+
+
+.bgc2 {
+    background-color: transparent;
 }
+/* hi  <3*/
 
-.cheers {
-	display: none;
-}
 
-footer {
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-	padding: 2rem;
 
-}
-
-.social {
-	width: 40%;
-	display: flex;
-	justify-content: space-between;
-	justify-items: center;
-
-	margin: 1rem auto;
+.arrowfooter img {
+    width: 50px;
+    margin-bottom: 5px;
 }
 
 .arrowfooter {
+    display: grid;
+right: 25px;
+bottom: 32px;
+z-index: 1;
+font-size: 14px;
 
-	display: grid;
-	grid-template-rows: 1fr, 1fr;
-	position: fixed;
-	right: 25px;
-	bottom: 60px;
-	z-index: 1;
-	
-	font-size: 9px;
-	
-	text-decoration: none;
-	color: white;
 }
 
-.arrowfooter img {
-	width: 22px;
-	margin-bottom: 5px;
-}
+/* ABOUT PAGE DESKTOP */
 
-a:visited, a:link, a:active {
-	text-decoration: none;
-	color: #F2F2F2;
-}
-
-
-/* ABOUT PAGE */
-
-.about,.srv2 {
-	background-color: red;
+.construction p {
+    font-size: 18px;
 }
 
 .about {
-	width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
-.img-about img {
-	position: relative;
+.about p {
+margin-left: 20px;
+margin-right: 20px;
 }
 
-.banners h4{
-	position: absolute;
-
-
-	font-size: 60px;
-	color: black;
+.about h5 {
+    padding-top: 20px;
+    margin-left: 15px;
+margin-right: 15px;
 }
-
 
 .linebreak {
-
-	display: grid;
-	grid-template-rows: 1fr, 1fr;
-	background-color: #3C3B3A;
-	color: #F2F2F2;
-	justify-content: center;
-	padding: 1rem;
+    justify-content: center;
 }
 
 .linebreak h5 {
-	font-style: normal;
-	font-size: 24px;
+    width: auto;
 }
 
-/* SUBSCRIBER BUTTON */
-
-/* controls size of button */
 .linebreak .getstartbtn {
-	width: 40%;
-	justify-self: center;
-}
-/* controls font size in button */
-.linebreak .getstartbtn button{
-	font-size: 20px;
+    padding-left: 30px;
 }
 
+/* changes sponsor images from vertical to :horizontal  */
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: auto;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    margin: 0 auto;
+}
+
+.sponsorSA {
+ width: 120%;
+}
+
+.sponsorCIBC {
+    height: 200px;
+    padding-left: 50px;
+}
+
+.social {
+    width: 10%;
+}
+
+/* CONTACT PAGE DESKTOP */
+
+.split p {
+    margin-bottom: 30px;
+}
+
+.contact-img {
+    max-width: 85%;
+}
+
+.maintext h1 {
+    margin-top: 40px;
+    font-size: 4.5rem;
+}
+
+.info {
+    width: 95%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 5%;
+}
+
+.info img {
+    max-width: 75%;
+}
+
+/* copied from inspector */
+body > main > section.discover.split > div:nth-child(1) {
+    margin-right: 10px;
+}
+
+/* END OF QUERY  */
+}
 
 
+/* CSS ANIMATIONS! */
 
-/* CONTACT PAGE */
+.getstartbtn button {
+    /* animation: ease-in-out; */
+}
+
+.getstartbtn button:hover {
+    animation-name: butts;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    /* animation: ease-in-out; */
+}
+
+button {
+    /* animation: ease-in-out; */
+}
+
+button:hover {
+    animation-name: butts;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+@keyframes butts {
+    0% {}
+    50% {background-color: #333131;
+         border: #26A682 solid 4px;
+        transform: scale(1.2);
+        transform: translate(0px, -3px);
+        }
+    90% {animation: ease-out;}
+    100% {}
+
+}
+
+.icon1 a:hover {
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes scale {
+
+    0% {}
+    50% {transform: scale(1.2);}
+    
+}
+
+.discARC {
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+@keyframes fade {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+/* END OF CODE */
+}
+
