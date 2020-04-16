@@ -1,0 +1,11 @@
+I tackled my web portfolio initially by creating a mock up in XD that was a general outline of where I wanted the website to go. I knew that I wanted to added video elements to the project so I created placeholders in the mock up to represent that. 
+
+The next step was to create my html framework, which I tackled on my own and tried to get a good understanding of what to do, that way I wouldn't have to modify it very much after. However with that being said, I did find myself going back and forth between my html and css to tweak things, and enjoy the workflow of having both open in a split window so I can reference things and modify it as I go. Ultimately I end up building both the html and css simultaneously, once I have a basic framework down, in order to feel comfortable and get a greater understanding of my assignment.
+
+My largest challenges were to overcome my anxieties regarding web development, which are something I've been very vocal about over the past year. Coding for me is less trying to learn a new subject and build something, and often invovles managing my emotions and trying to prevent myself from experiencing anxiety or panic attacks while also trying to learn material and attempt my project. To top it off, this was the first time I attempted to do the work completely solo (minus a few things here and there) without a large amount of assistance from TA's, Tutors, and teachers.
+
+Practically speaking, I had a great deal of trouble with the navbar, switching it to a side nav, which I eventually scrapped, and also had challenges implementing, sizing, and modifying my JS image gallery. I did come up with some solutions regarding max-width sizing, moving things around, etc., but as a whole it still proved to be difficult. It was really just trying to navigate, understand, and target divs and selectors to get to know where I was in the website specifically.
+
+I also overcame a lot of my challenges by finally grasping a basic understanding of the inspect tool in google chrome.
+
+I did enjoy the work I did when I made progress, and am ultimately happy with the final product. I have a lot more to learn, but after nearly two years, I've started to grasp HTML and CSS.

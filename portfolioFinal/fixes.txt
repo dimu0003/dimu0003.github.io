@@ -1,0 +1,16 @@
+Things to Fix:
+
+Homepage: Header;
+
+Ask Michael how to fix sizing of main logo and header, 
+so it stays within the video boundaries. - DONE -
+
+
+Source Set images and get them in the right order.
+
+Fix the image sizing when an image in the gallery gets clicked.
+
+add animations to image gallery
+
+
+FIX FILE SIZE AND FOLDER

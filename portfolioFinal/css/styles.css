@@ -1,0 +1,802 @@
+
+
+
+/* LEGEND 
+
+	h5 = contact form header
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	display: grid;
+
+	background-color: #080F0B;
+}
+
+
+.main {
+	overflow: auto;
+}
+
+p {
+	color: #DAEEEE;
+	font-family: 'Cairo', sans-serif;
+
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.h3about {
+	display: flex;
+	justify-content: center;
+	color: #00FFCB;
+	/* margin: 0 auto; */
+}
+
+
+
+
+/* footer base */
+
+.linebreak {
+	height: 55px;
+	width: 100%;
+	background-color: #00FFCB; /* BRIGHT TEAL */ 
+
+	margin-top: -5px;
+}
+
+footer {
+
+	display: flex;
+	position: fixed;
+	background-color: #142E2D;
+	width: 100%;
+	height: 50px;
+	align-items: center;
+	justify-content: flex-end;
+
+	bottom: 0px;
+
+	/* z-index: 3; */
+}
+
+
+
+
+.social a {	
+	padding-right: 20px;
+}
+
+.socialhome img{
+	margin-right: 20px;
+}
+
+/* Mobile  */
+
+
+
+/* NAV BAR */
+
+header {
+	background-color: #142E2D;
+	color: white;
+	margin: 0 auto;
+	height: 60px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 10px;
+}
+
+
+ul {
+
+	list-style: none;
+}
+
+
+
+body > main > header > nav > ul > a > li > img {
+	width: 40px;
+	padding-top: 0px;
+}
+
+body > main > header > nav > ul > a:hover {
+	background-color: #00FFCB;
+}
+ /* EMAIL ICON POSITION FIX */
+
+body > main > header > nav > ul > a:nth-child(3) > li > img {
+	margin-top: 5px;
+}
+
+/* Home Page */
+
+
+.banner img{
+	width: 100%;
+}
+
+
+.aboutme div {
+	display: grid;
+	/* margin-top: 15px; */
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutme img {
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+}
+
+
+
+
+/* Video Header */
+
+
+
+/* Allows positioning and adjustments of headers and text */
+
+
+.parent {
+	position: relative;
+	width: 100%;
+	height: 60vw; /* NOTE: NEED TO ADJUST IN MEDIA QUERIES */
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+/* RESPONSIVE VIDEO RESIZES TO FIT */
+
+
+
+@media screen and (min-width:1280px) {
+	.parent {
+
+		height: 60vw;
+	}
+
+}
+
+
+
+.logobig {
+
+	display: flex;
+	width: 100%;
+	justify-content: center;
+
+
+	z-index: 2;
+}
+
+.logobig img {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+}
+
+.bgvid {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	z-index: 1;
+}
+
+/* Adjusts size of actual video  */
+.video {
+	width: 100%;
+	height: 100%;
+}
+
+/* adjusts position of video for mobile */
+
+
+
+/* Contact Page */
+
+.navbar {
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.navigate a {
+	padding: 15px;
+	
+}
+
+.navigate {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+
+h3 {
+	font-size: 40px;
+	font-family: 'Reem Kufi', cursive;
+	color: #142E2D;
+}
+
+.h3contact {
+	margin: 0 auto;
+}
+
+.contactlogo {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+
+	justify-content: center;
+}
+
+.contactlogo img {
+	width: 500px;
+	margin: 0 auto;
+	justify-content: center;
+
+}
+
+.contactpg {
+	background-image: url(../images/bg-img/contact-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contactpg {
+	background-position-x: 90%;
+	background-position-y: 3rem;
+}
+
+
+
+
+
+/* contact form */
+
+/* Controls NAME EMAIL MSG Headers */
+
+h5 {
+	font-size: 20px;
+	font-family: 'Baloo Paaji 2', cursive;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+}
+
+
+/* CONTROLS SIZE OF FORM  */
+.main-form {
+
+	display: flex;
+	align-items: center;
+
+
+	background-color: rgba(20, 46, 45, 0.6);
+	border-radius: 30px;
+	box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.3);
+	color: rgba(0, 255, 203, 1.0);
+	max-width: 400px;
+	max-height: 500px;
+	padding: 1rem;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+}
+
+/* CONTROLS TEXT FIELDS  */
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: 0 auto;
+	
+
+
+
+
+
+}
+
+/* controls NAME EMAIL MSG field sizing */
+.form input {
+	margin: 0 auto;
+	width: 90%;
+	padding: 5px;
+
+	border-radius: 15px;
+	border: 3px solid rgba(0, 255, 203, 1.0);
+
+
+}
+
+
+body > main > section > div > form > input.value {
+	font-family: 'Cairo', sans-serif;
+
+}
+
+body > main > section > div > form > input.value.msg {
+	padding-bottom: 10px;
+	width: 90%;
+	height: 100px;
+	
+}
+
+
+/* controls position & width of button */
+
+.button-pos {
+	padding: 20px;
+	width: 30%;
+	margin: auto;
+	
+}
+
+ /* controls text size and height of button  */
+
+.button {
+	border-radius: 15px;
+	height: 35px;
+
+	background-color: rgba(0, 255, 203, 1.0);
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 24px;
+	color: #142E2D;
+}
+
+/* GALLERY PAGE */
+
+
+
+
+
+/* Gallery Navbar Adjustments */
+
+.galnav {
+	display: flex;
+	z-index: 3;
+}
+
+
+div.gal-icon {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	background-color: #080F0B;
+	margin-top: -5px;
+	/* margin-bottom: 20px; */
+	margin: 0 auto;
+}
+
+div.gal-icon2 {
+	display: none;
+}
+
+
+
+.videolinks {
+
+
+	display: grid;
+	width: 90%;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.videolinks img {
+	width: 100%;
+}
+
+.videolinks a {
+	border: 2px solid #00FFCB;
+	border-radius: 5px;
+	margin: 2px;
+
+	/* height: 100%; */
+}
+
+.videolinks img {
+
+	margin: 0 auto;
+	width: 100%;
+}
+
+.videolinks a:hover {
+	animation: vidscale;
+	animation-duration: 8s;
+	animation-delay: 0.1s;
+
+}
+
+
+/* TABLET VIEW */
+
+@media screen and (min-width: 700px) {
+
+
+
+/* GALLERY PAGE TABLET */
+
+	body > main > div.gal-icon {
+		margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.spacer {
+	margin-top: 40px;
+}
+
+div.gal-icon2 {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+div.gal-icon2 img {
+	width: 50px;
+}
+
+
+.videolinks {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+
+	margin-bottom: 10px;
+
+	justify-content: center;
+	align-items: center;	
+}
+
+
+
+} /* END OF TABLET VIEW */
+
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 900px) {
+
+	.aboutme {
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(2, 1fr);
+		margin-bottom: 30px;
+
+		align-items: center;
+	}
+
+	.aboutme p {
+		text-align: left;
+	}
+
+
+	.aboutme div:nth-child(1) {
+		grid-row: 2;
+	}
+
+	.aboutme div:nth-child(2) {
+		grid-row: 1;
+	}
+
+	.split {
+		margin-right: 10px;
+	}
+
+	.videolinks {
+		width: 80%;
+	}
+
+	.videolinks a {
+		margin: 1rem;
+		margin-bottom: 30px;
+	}
+	
+
+
+} /* end of query */
+
+/* JAVASCRIPT IMAGE GALLERY!!!!  */
+
+#gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	
+	background-color: #080F0B;
+}
+
+
+#gallery .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+	border: 3px solid #00FFCB;
+	padding: 0;
+	margin: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	width: calc(80% / 3);
+	height: 150px;
+}
+
+.card img{
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+.card span{
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(0,0,0,0.1);
+	color: whitesmoke;
+	position: absolute;
+	bottom: 10px;
+	left: 5px;
+	display: block;
+	overflow: hidden;
+}
+
+.card .title {
+
+	font-family: "Cairo", sans-serif;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 50%;
+	
+	display: none;
+	visibility: hidden;
+}
+
+.card:hover .title {
+	display: block;
+	visibility: visible;
+}
+
+
+/* NEEDS ANIMATIONS */
+.card:hover img {
+	animation-name: butts;
+	animation-duration: 8s;
+	animation-delay: 0.1s;
+	animation-timing-function: ease-in-out;
+/* 
+	transform: scale(1.4);
+	opacity: 0.8; */
+}
+
+
+#model {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	justify-content: center;
+	align-content: center;
+
+	position: absolute;
+	top: 30%;
+	/* right: 25%; */
+	overflow: hidden;
+	z-index: 1;
+	
+}
+
+/* DEFAULT CODE
+
+display: flex;
+width: 70%;
+position: absolute;
+top: 10%;
+left: 15%;
+overflow: hidden;
+z-index: 1; */
+
+
+#model img {
+
+	width: 90%;
+	/* padding-left:20%;
+	padding-right: 50%; */
+	position: fixed;
+	top: 20%;
+	max-width: 950px;
+	margin: 0 auto;
+	justify-content: center;
+
+}
+
+@media screen and (min-width: 1280px) {
+
+	#model img {
+	top: 15%;
+	padding-left: 20%;
+
+	}
+
+
+}
+
+#model span {
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* align-content: center; */
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	top: 20%;
+	right: 5%;
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	font-size: 20px;
+	background-color: #080F0B;
+	color: white;
+	border: 2px solid #00FFCB;
+}
+
+
+
+/*  original code
+#model span {
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* align-content: center; 
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	top: 40%;
+	right: 5%;
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	font-size: 20px;
+	background-color: #080F0B;
+	color: white;
+	border: 2px solid #00FFCB;
+}
+*/
+
+#model span:hover {
+	color: white;
+	background-color: red;
+	border: 2px solid white;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+#model h2 {
+
+	display: flex;
+	position: absolute;
+	top: 2%;
+	margin: 0 auto;
+	padding: 35%;
+	color: whitesmoke;
+	font-family: 'Cairo', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	display: block;
+	z-index: 1;
+	/* height: 50px; */
+}
+
+#model {
+	background-color: rgba (255,255,255,0.6);
+	padding: 5%;
+}
+
+@media only screen and (max-width:1080px){
+	
+	#gallery{
+		width: 100%;
+	}
+	
+	#gallery .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+	border: 2px solid #00FFCB;
+	padding: 0;
+	margin: 3px;
+	border-radius: 3.5px;
+	overflow: hidden;
+	width: calc(90% / 2);
+	height: 175px;
+}
+}
+
+
+@media only screen and (max-width:699px){
+	
+	#gallery{
+		width: 100%;
+	}
+	
+	#gallery .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+	border: 2px solid #00FFCB;
+	padding: 0;
+	margin: 3px;
+	border-radius: 3.5px;
+	overflow: hidden;
+	width: calc(100% / 1);
+	height: 225px;
+}
+
+}
+
+/* END OF GALLERY */
+
+/* CSS Animation */
+
+@keyframes butts {
+
+0% {}
+4% {opacity: 0.6;
+	transform: scale(1.4);}
+50% {background-color: #333131;
+	}
+100% {transform: scale(1.4);
+	  opacity: 0.6;}
+
+}
+
+@keyframes vidscale {
+
+	0% {}
+	4% {opacity: 0.8;
+		transform: scale(1.01);}
+	50% {background-color: #333131;
+		}
+	100% {transform: scale(1.01);
+		  opacity: 0.8;}
+	
+	}
